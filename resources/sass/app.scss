@@ -1,0 +1,26 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
+header{
+
+    background-color: rgb(100,100,100);
+    border-bottom: 1px solid black;
+  h1{
+    color: black;
+    text-align: center;
+  }
+}
+
+footer{
+
+  background-color: rgb(100,100,100);
+  color: black;
+  border-top: 1px solid black;
+}
