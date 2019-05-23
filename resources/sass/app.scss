@@ -24,3 +24,39 @@ footer{
   color: black;
   border-top: 1px solid black;
 }
+
+.title{
+
+  background-color: rgb(150,150,150);
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  div{
+    width: 33%;
+  }
+}
+
+.list{
+  background-color: rgb(150,150,150);
+  border: 1px solid black;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  padding: 72px;
+  overflow: auto;
+}
+
+.container{
+
+  width: 100%;
+  background-color: rgb(150,150,150);
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+
+  button{
+    margin: 20px;
+  }
+}
